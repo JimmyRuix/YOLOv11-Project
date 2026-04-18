@@ -19,6 +19,7 @@ This project implements end-to-end object detection model training and evaluatio
 
 ## 3. Training Configuration
 ```bash
+
 # Full training command
 yolo detect train model=yolo11n.pt data=coco128.yaml epochs=50 imgsz=640 batch=2
 
@@ -52,4 +53,4 @@ The lightweight YOLO11n model balances speed and accuracy effectively
 High-performance categories: person, airplane, motorcycle, stop sign
 
 ## Conclusion
-This project successfully completes the full pipeline of object detection model training, including environment setup, data configuration, model training, performance evaluation, and result visualization. The trained YOLO11n model delivers reliable detection performance, and this repository serves as a standardized technical portfolio for deep learning engineering practices.   
+This project successfully completes the full pipeline of object detection model training, including environment setup, data configuration, model training, performance evaluation, and result visualization. The trained YOLO11n model delivers reliable detection performance, and this repository serves as a standardized technical portfolio for deep learning engineering practices. 
